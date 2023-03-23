@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-tailscale/main/plugin/tailscale.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Network:VPN</Category>
+    <Name>Tailscale</Name>
+    <Description>
+        This plugin installs Tailscale for Unraid. This allows connection via Tailscale
+        even if the array is stopped.
+
+        The plugin does not provide any user interface. After installing, open the
+        console and use the tailscale CLI to configure:
+
+        https://tailscale.com/cli 
+    </Description>
+    <Support>https://forums.unraid.net/topic/136814-plugin-tailscale/</Support>
+    <Icon>https://raw.githubusercontent.com/dkaser/unraid-tailscale/main/logo.png</Icon>
+</Containers>
+
