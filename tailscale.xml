@@ -14,7 +14,8 @@
 
         https://tailscale.com/cli 
     </Description>
-    <Support>https://forums.unraid.net/topic/136814-plugin-tailscale/</Support>
+    <Support>https://forums.unraid.net/topic/136889-plugin-tailscale/</Support>
+    <Project>https://tailscale.com/</Project>
     <Icon>https://raw.githubusercontent.com/dkaser/unraid-tailscale/main/logo.png</Icon>
 </Containers>
 
