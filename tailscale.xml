@@ -12,7 +12,9 @@
         The plugin does not provide any user interface. After installing, open the
         console and use the tailscale CLI to configure:
 
-        https://tailscale.com/cli 
+        https://tailscale.com/cli
+
+        Additional documentation is available at https://github.com/dkaser/unraid-tailscale/wiki
     </Description>
     <Support>https://forums.unraid.net/topic/136889-plugin-tailscale/</Support>
     <Project>https://tailscale.com/</Project>
