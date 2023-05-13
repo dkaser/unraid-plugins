@@ -6,17 +6,13 @@
     <Category>Network:VPN</Category>
     <Name>Tailscale</Name>
     <Description>
-        Tailscale is a VPN service that makes the devices and applications you own accessible anywhere
-        in the world, securely and effortlessly. The service handles complex network configuration on 
-        your behalf so that you don't have to. Network connections between devices pierce through 
-        firewalls and routers as if they weren't there, allowing for direct connections without the 
-        need to manually configure port forwarding.
-        
-        After installing, open the console and use the tailscale CLI to configure:
+Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. The service handles complex network configuration on your behalf so that you don't have to. Network connections between devices pierce through firewalls and routers as if they weren't there, allowing for direct connections without the need to manually configure port forwarding.
 
-        https://tailscale.com/cli
+After installing, open the console and use the tailscale CLI to configure:
 
-        Additional documentation is available at https://github.com/dkaser/unraid-tailscale/wiki
+https://tailscale.com/cli
+
+Additional documentation is available at https://github.com/dkaser/unraid-tailscale/wiki
     </Description>
     <Support>https://forums.unraid.net/topic/136889-plugin-tailscale/</Support>
     <Project>https://tailscale.com/</Project>
