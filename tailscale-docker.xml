@@ -7,37 +7,34 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>TBD</Support>
-  <Project>https://tailscale.com/</Project>
-  <Overview>This container provides Tailscale for use as a sidecar for Docker containers connected to ipvlan (e.g., br0) networks.&#xD;
-&#xD;
-**To install Tailscale for Unraid access, or for docker containers running on bridge networks, install the Tailscale plugin instead.**&#xD;
-&#xD;
-This container can be configured as either an ephemeral or persistent node.&#xD;
-&#xD;
-To create an ephemeral node:&#xD;
-1. Generate an ephemeral authentication key in the Tailscale admin console.&#xD;
-2. Set Hostname and Authentication Key in the container configuration. Leave State Storage blank.&#xD;
-&#xD;
-To create a persistent node:&#xD;
-1. (Optional) Generate an authentication key in the Tailscale admin console.&#xD;
-2. Set Hostname, State Storage, and (if applicable) Authentication Key in the container configuration.&#xD;
-3. If you did not set an authentication key, review the container logs to obtain the login URL to join the node to your tailnet.</Overview>
+  <Project>https://github.com/tailscale/tailscale</Project>
+  <Support>https://forums.unraid.net/topic/167947-docker-tailscale/</Support>
+  <Overview>This container provides Tailscale for use as a sidecar for Docker containers connected to ipvlan (e.g., br0) networks, or for use with node sharing.    
+
+## Important Information
+
+This container is only intended for advanced networking configurations, so it is expected that you know what you are doing.
+
+Support will not be provided for using this container to access Unraid resources (WebGUI, shares, etc.). **To access Unraid resources, install the Tailscale plugin instead.**
+
+## State Configuration
+
+This container can be configured as either an ephemeral or persistent node.    
+
+To create a persistent node:    
+1. (Optional) Generate an authentication key in the Tailscale admin console.    
+2. Set Hostname, State Storage, and (if applicable) Authentication Key in the container configuration.    
+3. If you did not set an authentication key, open the container logs to obtain the login URL to join the node to your tailnet. **Caution: If you use this method, you must complete the login within 60 seconds of the container starting.**
+
+To create an ephemeral node:    
+1. Generate an ephemeral authentication key in the Tailscale admin console.    
+2. Set Hostname and Authentication Key in the container configuration. Leave State Storage blank.
+</Overview>
   <Category>Network:VPN</Category>
-  <WebUI/>
-  <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/dkaser/unraid-tailscale/main/logo.png</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DateInstalled>1680145999</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
-  <Requires/>
-  <Config Name="Hostname" Target="TS_HOSTNAME" Default="Docker" Mode="" Description="Name to be assigned to node on the tailnet." Type="Variable" Display="always-hide" Required="true" Mask="false"/>
-  <Config Name="State Storage" Target="/state" Default="" Mode="rw" Description="Path to store Tailscale state. Leave blank for ephemeral nodes." Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="State Storage" Target="/state" Default="/mnt/user/appdata/tailscale" Mode="rw" Description="Path to store Tailscale state. Leave blank for ephemeral nodes." Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Hostname" Target="TS_HOSTNAME" Default="unraid-docker" Mode="" Description="Name to be assigned to node on the tailnet." Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Authentication Key" Target="TS_AUTHKEY" Default="" Mode="" Description="Authentication key to use to join the tailnet. Required for ephemeral nodes. Only used on first start if state is persistent." Type="Variable" Display="always" Required="false" Mask="true"/>
-  <Config Name="Advertised Routes" Target="TS_ROUTES" Default="" Mode="" Description="Routes to advertise to the tailnet." Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="TS_EXTRA_ARGS" Target="TS_EXTRA_ARGS" Default="" Mode="" Description="Extra arguments to pass to tailscale on start." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Extra Arguments" Target="TS_EXTRA_ARGS" Default="" Mode="" Description="Extra arguments to pass via tailscale set." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="TS_STATE_DIR" Target="TS_STATE_DIR" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">/state</Config>
 </Container>
