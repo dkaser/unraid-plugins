@@ -9,13 +9,15 @@
   <Privileged>false</Privileged>
   <Project>https://github.com/tailscale/tailscale</Project>
   <Support>https://forums.unraid.net/topic/167947-docker-tailscale/</Support>
-  <Overview>This container provides Tailscale for use as a sidecar for Docker containers connected to ipvlan (e.g., br0) networks, or for use with node sharing.    
+  <Overview>**To access Unraid resources, install the Tailscale plugin instead.**
+  
+This container provides Tailscale for use as a sidecar for Docker containers connected to ipvlan (e.g., br0) networks, or for use with node sharing.    
 
 ## Important Information
 
 This container is only intended for advanced networking configurations, so it is expected that you know what you are doing.
 
-Support will not be provided for using this container to access Unraid resources (WebGUI, shares, etc.). **To access Unraid resources, install the Tailscale plugin instead.**
+Support will not be provided for using this container to access Unraid resources (WebGUI, shares, etc.). 
 
 ## State Configuration
 
