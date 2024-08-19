@@ -14,6 +14,5 @@
     <Project>https://tailscale.com/</Project>
     <Icon>https://raw.githubusercontent.com/dkaser/unraid-tailscale/main/logo.png</Icon>
     <multiLanguage>true</multiLanguage>
-    <MinVer>6.9.2</MinVer>
+    <MinVer>6.11.5</MinVer>
 </Containers>
-
