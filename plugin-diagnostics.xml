@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-plugin-diagnostics/main/plugin/plugin-diagnostics.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:</Category>
+    <Name>Plugin Diagnostics</Name>
+    <Description>
+        Collects diagnostic information for other plugins.
+    </Description>
+    <Support>https://forums.unraid.net/topic/174968-support-plugin-diagnostics/</Support>
+    <Icon>https://raw.githubusercontent.com/dkaser/unraid-plugin-diagnostics/main/assets/diag-logo.png</Icon>
+    <multiLanguage>false</multiLanguage>
+    <MinVer>6.11.5</MinVer>
+</Containers>
