@@ -3,7 +3,7 @@
   <Name>Tailscale-Docker</Name>
   <Repository>tailscale/tailscale:stable</Repository>
   <Registry>https://hub.docker.com/r/tailscale/tailscale</Registry>
-  <Network>br0</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
