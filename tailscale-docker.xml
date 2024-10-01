@@ -37,6 +37,8 @@ To create an ephemeral node:
   <Config Name="State Storage" Target="/state" Default="/mnt/user/appdata/tailscale" Mode="rw" Description="Path to store Tailscale state. Leave blank for ephemeral nodes." Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Hostname" Target="TS_HOSTNAME" Default="unraid-docker" Mode="" Description="Name to be assigned to node on the tailnet." Type="Variable" Display="always-hide" Required="true" Mask="false"/>
   <Config Name="Authentication Key" Target="TS_AUTHKEY" Default="" Mode="" Description="Authentication key to use to join the tailnet. Required for ephemeral nodes. Only used on first start if state is persistent." Type="Variable" Display="always" Required="false" Mask="true"/>
-  <Config Name="Extra Arguments" Target="TS_EXTRA_ARGS" Default="" Mode="" Description="Extra arguments to pass via tailscale set." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="Extra Arguments" Target="TS_EXTRA_ARGS" Default="" Mode="" Description="Extra arguments to pass via tailscale up." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
   <Config Name="TS_STATE_DIR" Target="TS_STATE_DIR" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">/state</Config>
+  <Config Name="TS_AUTH_ONCE" Target="TS_AUTH_ONCE" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
+  <Config Name="TS_USERSPACE" Target="TS_USERSPACE" Default="" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">true</Config>
 </Container>
