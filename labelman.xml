@@ -11,7 +11,7 @@
         Currently, the plugin supports TSDProxy; support for Traefik is planned for a future release. 
     </Description>
     <Support>https://forums.unraid.net/topic/184701-plugin-label-manager/</Support>
-    <IconFA>tags</Icon>
+    <IconFA>tags</IconFA>
     <multiLanguage>false</multiLanguage>
     <MinVer>6.12.0</MinVer>
 </Containers>
