@@ -13,7 +13,7 @@
   <Category>Network:VPN</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Icon>https://raw.githubusercontent.com/dkaser/unraid-plugins/main/tsdproxy.png</Icon>
-  <Config Name="/var/run/docker.sock" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="/var/run/docker.sock" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
   <Config Name="Config" Target="/config" Default="/mnt/user/appdata/tsdproxy/config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tsdproxy/config</Config>
   <Config Name="Data" Target="/data" Default="/mnt/user/appdata/tsdproxy/data" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tsdproxy/data</Config>
   <Config Name="Dashboard" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8081</Config>
