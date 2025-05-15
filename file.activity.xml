@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-fileactivity/main/plugin/file.activity.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:System</Category>
+    <multiLanguage>true</multiLanguage>
+    <Name>File Activity</Name>
+    <Description>
+        This plugin displays recent open/write/modify file activity on each disk, Unassigned Devices disks, and cache/pool devices.  It can help to understand why disks are spinning up from write/modify file and directory activity.
+    </Description>
+    <Support>https://forums.unraid.net/topic/54808-file-activity-plugin-how-can-i-figure-out-what-keeps-spinning-up-my-disks/</Support>
+    <IconFA>folder</IconFA>
+</Containers>
