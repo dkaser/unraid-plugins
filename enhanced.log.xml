@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-enhancedlog/main/plugin/enhanced.log.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:System</Category>
+    <multiLanguage>true</multiLanguage>
+    <Name>Enhanced Log</Name>
+    <Description>
+        This plugin enhances the built-in Syslog page to view the system log with highlighted lines.  You can enable or disable event highlighting and set your own colors for each event.  You can add your own search string to highlight in the log.
+    </Description>
+    <Support>https://forums.unraid.net/topic/43115-enhanced-log-view-with-lines-highlighted-in-color/</Support>
+    <IconFA>align-left</IconFA>
+</Containers>
