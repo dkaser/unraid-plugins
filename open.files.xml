@@ -8,6 +8,8 @@
     <Name>Open Files</Name>
     <Description>
         This plugin shows any open files on the array that might prevent a clean shutdown.  The plugin web page is installed in 'Tools'.  You can stop all array processes on the open files web page and troubleshoot shutdown problems.  After you stop all array processes, you will see what processes are still holding files open on the array preventing a shutdown.
+
+        This plugin shares basic info like the plugin and Unraid version with the developer to help improve future updates. It doesn't collect any personal data, and if you'd rather not share, you can easily turn it off in the settings.
     </Description>
     <Support>https://forums.unraid.net/topic/41196-open-files-plugin-can-help-with-troubleshooting-why-server-wont-shut-down/</Support>
     <IconFA>folder-open</IconFA>
