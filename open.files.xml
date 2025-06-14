@@ -11,6 +11,6 @@
 
         This plugin shares basic info like the plugin and Unraid version with the developer to help improve future updates. It doesn't collect any personal data, and if you'd rather not share, you can easily turn it off in the settings.
     </Description>
-    <Support>https://forums.unraid.net/topic/41196-open-files-plugin-can-help-with-troubleshooting-why-server-wont-shut-down/</Support>
+    <Support>https://forums.unraid.net/topic/191179-plugin-open-files-see-whats-preventing-unraid-from-shutting-down/</Support>
     <IconFA>folder-open</IconFA>
 </Containers>

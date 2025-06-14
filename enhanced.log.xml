@@ -11,6 +11,6 @@
 
         This plugin shares basic info like the plugin and Unraid version with the developer to help improve future updates. It doesn't collect any personal data, and if you'd rather not share, you can easily turn it off in the settings.
     </Description>
-    <Support>https://forums.unraid.net/topic/43115-enhanced-log-view-with-lines-highlighted-in-color/</Support>
+    <Support>https://forums.unraid.net/topic/191178-plugin-enhanced-log-advanced-syslog-viewer-for-unraid/</Support>
     <IconFA>align-left</IconFA>
 </Containers>
