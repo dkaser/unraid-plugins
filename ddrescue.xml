@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-ddrescue/main/plugin/ddrescue.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:</Category>
+    <Name>ddrescue</Name>
+    <Description>
+        GNU ddrescue is a data recovery tool. It copies data from one file or block device (hard disc, cdrom, etc) to another, trying to rescue the good parts first in case of read errors.
+    </Description>
+    <Support>https://forums.unraid.net/topic/192095-plugin-ddrescue/</Support>
+    <IconFA>life-ring</IconFA>
+    <multiLanguage>false</multiLanguage>
+</Containers>
