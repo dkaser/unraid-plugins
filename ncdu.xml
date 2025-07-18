@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-ncdu/main/plugin/ncdu.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:</Category>
+    <Name>ncdu</Name>
+    <Description>
+        A disk usage analyzer with a text-mode user interface.
+    </Description>
+    <Support>https://forums.unraid.net/topic/192094-plugin-ncdu/</Support>
+    <IconFA>hdd-o</IconFA>
+    <multiLanguage>false</multiLanguage>
+</Containers>
