@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>hhttps://raw.githubusercontent.com/dkaser/unraid-storcli/main/plugin/storcli.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:</Category>
+    <Name>storcli64</Name>
+    <Description>
+        storcli64 is a command-line utility for managing MegaRAID storage controllers.
+    </Description>
+    <Support>https://forums.unraid.net/topic/192112-plugin-storcli64/</Support>
+    <IconFA>microchip</IconFA>
+    <multiLanguage>false</multiLanguage>
+</Containers>
