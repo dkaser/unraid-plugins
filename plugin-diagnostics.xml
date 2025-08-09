@@ -7,8 +7,6 @@
     <Name>Plugin Diagnostics</Name>
     <Description>
         Collects diagnostic information for other plugins.
-
-        This plugin shares basic info like the plugin and Unraid version with the developer to help improve future updates. It doesn't collect any personal data, and if you'd rather not share, you can easily turn it off in the settings.
     </Description>
     <Support>https://forums.unraid.net/topic/174968-support-plugin-diagnostics/</Support>
     <Icon>https://raw.githubusercontent.com/dkaser/unraid-plugin-diagnostics/main/assets/diag-logo.png</Icon>
