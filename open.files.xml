@@ -5,7 +5,7 @@
     <Beta>False</Beta>
     <Category>Tools:System</Category>
     <multiLanguage>true</multiLanguage>
-    <Name>Open Files</Name>
+    <Name>Open Files v2</Name>
     <Description>
         This plugin shows any open files on the array that might prevent a clean shutdown.  The plugin web page is installed in 'Tools'.  You can stop all array processes on the open files web page and troubleshoot shutdown problems.  After you stop all array processes, you will see what processes are still holding files open on the array preventing a shutdown.
     </Description>
