@@ -7,7 +7,7 @@
     <multiLanguage>true</multiLanguage>
     <Name>File Activity v2</Name>
     <Description>
-        This plugin displays recent open/write/modify file activity on each disk, Unassigned Devices disks, and cache/pool devices.  It can help to understand why disks are spinning up from write/modify file and directory activity.
+        This improved version of the File Activity plugin retains all the original functionality, including monitoring recent open/write/modify file activity on each disk, Unassigned Devices, and cache/pool devices. Additionally, it introduces a more reliable backend watcher, the ability to add or remove exclusions, and enhanced search and filtering capabilities to quickly locate relevant results.
     </Description>
     <Support>https://forums.unraid.net/topic/191180-plugin-file-activity-see-whats-keeping-your-unraid-disks-busy/</Support>
     <IconFA>folder</IconFA>
