@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-tsidp/main/plugin/tsidp.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:</Category>
+    <Name>Label Manager</Name>
+    <Description>
+        Tailscale IDP enables secure authentication to the Unraid WebGUI using your Tailscale account. With this plugin, you can log in to your Unraid server through Tailscale, simplifying access management and enhancing security by leveraging Tailscale's single sign-on capabilities.
+    </Description>
+    <Support>https://forums.unraid.net/topic/193586-plugin-tailscale-idp/</Support>
+    <IconFA>lock</IconFA>
+    <multiLanguage>false</multiLanguage>
+    <MinVer>7.0.0</MinVer>
+    <RequiresFile>/usr/local/emhttp/plugins/tailscale/bin/tailscale</RequiresFile>
+    <Requires>
+        **Tailscale** *and*
+        **Unraid 7.2beta3** *or* **Unraid Connect Plugin 2025.09.04.1949** (or later)
+    </Requires>
+</Containers>
