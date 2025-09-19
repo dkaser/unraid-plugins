@@ -15,7 +15,7 @@ Additional requirements:
 - You must be running Unraid 7.2beta3 or later, or have the Unraid Connect Plugin version 2025.09.04.1949 or later installed.
 </Description>
 <Support>https://forums.unraid.net/topic/193586-plugin-tailscale-idp/</Support>
-<IconFA>lock</IconFA>
+<Icon>https://raw.githubusercontent.com/dkaser/unraid-tsidp/main/logo.png</Icon>
 <multiLanguage>false</multiLanguage>
 <MinVer>7.0.0</MinVer>
 <RequiresFile>/usr/local/emhttp/plugins/tailscale/bin/tailscale</RequiresFile>
