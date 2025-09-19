@@ -11,6 +11,7 @@ Tailscale IDP enables secure authentication to the Unraid WebGUI using your Tail
 Additional requirements:
 
 - Tailscale must be installed and configured on your Unraid server.
+- HTTPS certificates must be enabled for your Tailnet via https://login.tailscale.com/admin/dns
 - You must be running Unraid 7.2beta3 or later, or have the Unraid Connect Plugin version 2025.09.04.1949 or later installed.
 </Description>
 <Support>https://forums.unraid.net/topic/193586-plugin-tailscale-idp/</Support>
