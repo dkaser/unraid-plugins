@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-auto-unlock/main/plugin/auto-unlock-preview.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>True</Beta>
+    <Category>Tools:</Category>
+    <Name>Automatic Disk Unlock (Preview)</Name>
+    <Description>
+        Automatic Disk Unlock automatically unlocks your encrypted array and encrypted disks at boot time.
+
+        The plugin protects your disk encryption key using Shamir's Secret Sharing. Your disk encryption key 
+        is stored encrypted on the flash drive, protected by a randomly-generated wrapping key. This wrapping 
+        key is split into multiple pieces—you configure how many pieces to create and how many are needed to 
+        unlock your drives.
+        
+        At boot, the plugin retrieves the required number of pieces from locations you specify 
+        (like web servers, SSH hosts, or DNS records), reconstructs the wrapping key, decrypts your disk 
+        encryption key, and unlocks your array automatically.
+    </Description>
+    <Support>https://forums.unraid.net/topic/195584-plugin-automatic-disk-unlock/</Support>
+    <IconFA>unlock</IconFA>
+    <multiLanguage>true</multiLanguage>
+    <MinVer>7.2.0</MinVer>
+</Containers>
