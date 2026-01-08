@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+    <PluginURL>https://raw.githubusercontent.com/dkaser/unraid-header-fix/main/plugin/header-fix.plg</PluginURL>
+    <PluginAuthor>Derek Kaser</PluginAuthor>
+    <Beta>False</Beta>
+    <Category>Tools:</Category>
+    <Name>WebGUI Header Link Fix</Name>
+    <Description>
+        Replaces the unraid.net link in the WebGUI header with a link back to the WebGUI start page.
+    </Description>
+    <Support>https://forums.unraid.net/topic/196339-plugin-header-link-fix/</Support>
+    <IconFA>wrench</IconFA>
+    <multiLanguage>false</multiLanguage>
+</Containers>
