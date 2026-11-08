@@ -14,4 +14,5 @@
     <IconFA>tags</IconFA>
     <multiLanguage>false</multiLanguage>
     <MinVer>6.12.0</MinVer>
+    <Deprecated>True</Deprecated>
 </Containers>

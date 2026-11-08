@@ -11,4 +11,5 @@
     </Description>
     <Support>https://forums.unraid.net/topic/191179-plugin-open-files-see-whats-preventing-unraid-from-shutting-down/</Support>
     <IconFA>folder-open</IconFA>
+    <Deprecated>True</Deprecated>
 </Containers>

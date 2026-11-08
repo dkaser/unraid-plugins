@@ -11,4 +11,5 @@
     </Description>
     <Support>https://forums.unraid.net/topic/191180-plugin-file-activity-see-whats-keeping-your-unraid-disks-busy/</Support>
     <IconFA>folder</IconFA>
+    <Deprecated>True</Deprecated>
 </Containers>
